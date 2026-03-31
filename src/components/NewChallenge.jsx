@@ -1,5 +1,5 @@
 import { useContext, useRef, useState } from 'react';
-import { motion, useAnimate, stagger } from 'framer-motion';
+import { motion, useAnimate } from 'framer-motion';
 
 import { ChallengesContext } from '../store/challenges-context.jsx';
 import Modal from './Modal.jsx';
